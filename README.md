@@ -7,7 +7,7 @@ write in pure javascript.
 Quick Start
 ```js
 //get table element 
-let table0 = document.getElementsById('table0');
+let table0 = document.getElementById('table0');
 
 //View Only: ID or Name contain 'XXxxXx'
 whiteSuggar.table.filtering(
