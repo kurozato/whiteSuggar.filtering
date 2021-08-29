@@ -5,7 +5,7 @@ write in pure javascript.
 
 ## How To Use
 Quick Start
-```
+```js
 //get table element 
 let table0 = document.getElementsById('table0');
 
