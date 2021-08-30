@@ -1,8 +1,4 @@
 var whiteSuggar = whiteSuggar || {};
-
-/**
- * light table control module
- */
 whiteSuggar.filtering = whiteSuggar.filtering || {};
 
 /**
