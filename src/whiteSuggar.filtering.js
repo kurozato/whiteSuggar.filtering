@@ -1,4 +1,4 @@
-whiteSuggar = whiteSuggar || {};
+var whiteSuggar = whiteSuggar || {};
 
 /**
  * light table control module
