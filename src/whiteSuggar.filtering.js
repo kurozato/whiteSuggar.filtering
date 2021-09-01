@@ -1,4 +1,5 @@
-var whiteSuggar = whiteSuggar || {};
+const whiteSuggar = window.whiteSuggar || {};
+
 whiteSuggar.filtering = whiteSuggar.filtering || {};
 
 /**
@@ -8,8 +9,8 @@ whiteSuggar.filtering = whiteSuggar.filtering || {};
  * @param {Function} expression 
  */
 whiteSuggar.filtering.filter = function(element, elementName, expression){
-    let targets = element.getElementsByTagName(elementName);
-    for(var i = 0; i < targets.length; i++){
+    const targets = element.getElementsByTagName(elementName);
+    for(let i = 0; i < targets.length; i++){
         if(expression(targets[i]) === true){
             targets[i].style.display = '';
         }
