@@ -6,7 +6,7 @@ write in pure javascript.
 Quick Start
 ```js
 //get element 
-let table0 = document.getElementById('table0');
+const table0 = document.getElementById('table0');
 
 //View Only: ID or Name contain 'XXxxXx'
 whiteSuggar.filtering.filter(
@@ -18,11 +18,11 @@ whiteSuggar.filtering.filter(
 Use Main:   
 filtering by user input contents.
 ```js
-let input = document.getElementById('input0');
+const input = document.getElementById('input0');
 
 input.addEventListener('input', function(e){
 
-    let box = document.getElementById('box0');
+    const box = document.getElementById('box0');
     
     whiteSuggar.filtering.filter(
         box,
